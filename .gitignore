@@ -1,8 +1,36 @@
-node_modules/
-build/
-dist/
-coverage/
+# Unity generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Visual Studio cache directory
+.vs/
+
+# Rider IDE
+.idea/
+*.sln.iml
+
+# OS files
 .DS_Store
-*.log
-.env*
-!.env.example
+Thumbs.db
+
+# Compiled files
+*.csproj
+*.unityproj
+*.sln
+
+# Build outputs
+*.apk
+*.aab
+*.exe
+
+# Local env files
+.env
+.env.local
+
+# Node modules (if using web build tools)
+node_modules/
